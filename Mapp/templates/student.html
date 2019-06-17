@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>My page 2</title>
+    </head>
+    <body>
+        <h1>This is My page no. 2</h1>
+        <form method = "POST">
+            {% csrf_token %}
+            {{form.as_p}}
+            <input type = "submit">
+
+        </form>
+
+
+    </body>
+</html>
